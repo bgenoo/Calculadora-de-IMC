@@ -3,7 +3,7 @@ function calcimc() {
     var p1 = parseFloat(prompt('Peso pessoa '+(i+1)+' em quilos'));
     var h1 = parseFloat(prompt('Altura pessoa '+(i+1)+' em metros'));
 
-    var imc = p1 / (h1*2);
+    var imc = p1 / (h1*h1);
     if (imc < 18.5){
         alert('Abaixo do peso normal.');
     }
